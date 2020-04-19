@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f34310a86064aa73cb90d5edaef1118",
+    "revision": "482bdaaea21bddb7a464e07a015f5c86",
     "url": "/react-three-fiber-starter/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-three-fiber-starter/static/js/2.d3696dda.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e7ed87a9b2629bfd65f",
-    "url": "/react-three-fiber-starter/static/js/main.4ffe5e4f.chunk.js"
+    "revision": "8a8c976046f28b527729",
+    "url": "/react-three-fiber-starter/static/js/main.19c4942f.chunk.js"
   },
   {
     "revision": "87c3d3505a528b654e0c",
