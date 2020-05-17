@@ -2,7 +2,7 @@
   "name": "study-react-three-fiber",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yokotani92.github.io/react-three-fiber-starter/",
+  "homepage": "https://yokotani92.github.io/react-three-fiber-gallery/",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@testing-library/jest-dom": "^4.2.4",
