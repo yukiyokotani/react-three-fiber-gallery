@@ -15,7 +15,7 @@ const Loading = () => {
 
 const App = () => (
   <div className="App">
-    <BrowserRouter>
+    <BrowserRouter basename="/react-three-fiber-gallery">
       <Suspense fallback={Loading}>
         <Switch>
           <Route path='/' exact children={<Home />} />
@@ -27,7 +27,7 @@ const App = () => (
         </Switch>
       </Suspense>
     </BrowserRouter>
-  </div>
+  </div >
 );
 
 export default App;
