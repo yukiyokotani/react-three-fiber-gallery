@@ -1,19 +1,38 @@
 {
   "files": {
-    "main.js": "/react-three-fiber-starter/static/js/main.19c4942f.chunk.js",
-    "main.js.map": "/react-three-fiber-starter/static/js/main.19c4942f.chunk.js.map",
-    "runtime-main.js": "/react-three-fiber-starter/static/js/runtime-main.c4cfdab4.js",
-    "runtime-main.js.map": "/react-three-fiber-starter/static/js/runtime-main.c4cfdab4.js.map",
-    "static/js/2.d3696dda.chunk.js": "/react-three-fiber-starter/static/js/2.d3696dda.chunk.js",
-    "static/js/2.d3696dda.chunk.js.map": "/react-three-fiber-starter/static/js/2.d3696dda.chunk.js.map",
+    "static/js/0.609f24bd.chunk.js": "/react-three-fiber-starter/static/js/0.609f24bd.chunk.js",
+    "static/js/0.609f24bd.chunk.js.map": "/react-three-fiber-starter/static/js/0.609f24bd.chunk.js.map",
+    "static/js/1.3ae2d8cb.chunk.js": "/react-three-fiber-starter/static/js/1.3ae2d8cb.chunk.js",
+    "static/js/1.3ae2d8cb.chunk.js.map": "/react-three-fiber-starter/static/js/1.3ae2d8cb.chunk.js.map",
+    "main.js": "/react-three-fiber-starter/static/js/main.b979a41c.chunk.js",
+    "main.js.map": "/react-three-fiber-starter/static/js/main.b979a41c.chunk.js.map",
+    "runtime-main.js": "/react-three-fiber-starter/static/js/runtime-main.7fa6a88b.js",
+    "runtime-main.js.map": "/react-three-fiber-starter/static/js/runtime-main.7fa6a88b.js.map",
+    "static/js/4.4a0d1c57.chunk.js": "/react-three-fiber-starter/static/js/4.4a0d1c57.chunk.js",
+    "static/js/4.4a0d1c57.chunk.js.map": "/react-three-fiber-starter/static/js/4.4a0d1c57.chunk.js.map",
+    "static/js/5.fa74eaf6.chunk.js": "/react-three-fiber-starter/static/js/5.fa74eaf6.chunk.js",
+    "static/js/5.fa74eaf6.chunk.js.map": "/react-three-fiber-starter/static/js/5.fa74eaf6.chunk.js.map",
+    "static/js/6.274bb2e2.chunk.js": "/react-three-fiber-starter/static/js/6.274bb2e2.chunk.js",
+    "static/js/6.274bb2e2.chunk.js.map": "/react-three-fiber-starter/static/js/6.274bb2e2.chunk.js.map",
+    "static/js/7.1f4ef237.chunk.js": "/react-three-fiber-starter/static/js/7.1f4ef237.chunk.js",
+    "static/js/7.1f4ef237.chunk.js.map": "/react-three-fiber-starter/static/js/7.1f4ef237.chunk.js.map",
+    "static/js/8.e62055d5.chunk.js": "/react-three-fiber-starter/static/js/8.e62055d5.chunk.js",
+    "static/js/8.e62055d5.chunk.js.map": "/react-three-fiber-starter/static/js/8.e62055d5.chunk.js.map",
+    "static/js/9.7b059a68.chunk.js": "/react-three-fiber-starter/static/js/9.7b059a68.chunk.js",
+    "static/js/9.7b059a68.chunk.js.map": "/react-three-fiber-starter/static/js/9.7b059a68.chunk.js.map",
+    "static/js/10.f70b2d8d.chunk.js": "/react-three-fiber-starter/static/js/10.f70b2d8d.chunk.js",
+    "static/js/10.f70b2d8d.chunk.js.map": "/react-three-fiber-starter/static/js/10.f70b2d8d.chunk.js.map",
+    "static/js/11.121ebcdf.chunk.js": "/react-three-fiber-starter/static/js/11.121ebcdf.chunk.js",
+    "static/js/11.121ebcdf.chunk.js.map": "/react-three-fiber-starter/static/js/11.121ebcdf.chunk.js.map",
     "index.html": "/react-three-fiber-starter/index.html",
-    "precache-manifest.7447ddb2d71897d9fb446e092440d1e0.js": "/react-three-fiber-starter/precache-manifest.7447ddb2d71897d9fb446e092440d1e0.js",
+    "precache-manifest.40224b37b7d15dec19f2c3b395b7317a.js": "/react-three-fiber-starter/precache-manifest.40224b37b7d15dec19f2c3b395b7317a.js",
     "service-worker.js": "/react-three-fiber-starter/service-worker.js",
-    "static/js/2.d3696dda.chunk.js.LICENSE.txt": "/react-three-fiber-starter/static/js/2.d3696dda.chunk.js.LICENSE.txt"
+    "static/js/1.3ae2d8cb.chunk.js.LICENSE.txt": "/react-three-fiber-starter/static/js/1.3ae2d8cb.chunk.js.LICENSE.txt",
+    "static/js/4.4a0d1c57.chunk.js.LICENSE.txt": "/react-three-fiber-starter/static/js/4.4a0d1c57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4cfdab4.js",
-    "static/js/2.d3696dda.chunk.js",
-    "static/js/main.19c4942f.chunk.js"
+    "static/js/runtime-main.7fa6a88b.js",
+    "static/js/4.4a0d1c57.chunk.js",
+    "static/js/main.b979a41c.chunk.js"
   ]
 }
