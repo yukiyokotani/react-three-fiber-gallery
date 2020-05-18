@@ -1,0 +1,1 @@
+declare module 'three/examples/jsm/libs/tween.module.min.js';
