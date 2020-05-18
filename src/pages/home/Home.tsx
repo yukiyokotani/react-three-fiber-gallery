@@ -6,6 +6,7 @@ import { css, jsx } from '@emotion/core';
 const theme = css`
     padding: 2% 5%;
     color: white;
+    font-family: Sans-Serif;
     a {
         color: hotpink;
         text-decoration: none;
@@ -21,6 +22,7 @@ const Home: React.FC = () => {
             <li><Link to='/halftone-box' >Halftone Box</Link></li>
             <li><Link to='/luminous-box' >Luminous Box</Link></li>
             <li><Link to='/luminous-and-halftone-box' >Luminous & Halftone Box</Link></li>
+            <li><Link to='/aligned-boxes'>Aligned Boxes</Link></li>
         </div>
     );
 };

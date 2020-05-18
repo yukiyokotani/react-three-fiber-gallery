@@ -7,7 +7,7 @@ const TailingBox = lazy(() => import('./pages/tailing-box/TailingBox'));
 const HalftoneBox = lazy(() => import('./pages/halftone-box/HalftoneBox'));
 const LuminousBox = lazy(() => import('./pages/luminous-box/LuminousBox'));
 const LuminousAndHalftoneBox = lazy(() => import('./pages/luminous-and-halftone-box/LuminousAndHalftoneBox'));
-
+const AlignedBoxes = lazy(() => import('./pages/aligned-boxes/AlignedBoxes'));
 
 const Loading = () => {
   return <p>Loading...</p>;
@@ -16,7 +16,7 @@ const Loading = () => {
 const App = () => (
   <div className="App">
     <BrowserRouter basename="/react-three-fiber-gallery">
-      <Suspense fallback={Loading}>
+      <Suspense fallback={<Loading />}>
         <Switch>
           <Route path='/' exact children={<Home />} />
           <Route path='/default-box' children={<DefaultBox />} />
@@ -24,6 +24,7 @@ const App = () => (
           <Route path='/halftone-box' children={<HalftoneBox />} />
           <Route path='/luminous-box' children={<LuminousBox />} />
           <Route path='/luminous-and-halftone-box' children={<LuminousAndHalftoneBox />} />
+          <Route path='/aligned-boxes' children={<AlignedBoxes />} />
         </Switch>
       </Suspense>
     </BrowserRouter>
