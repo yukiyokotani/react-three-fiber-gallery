@@ -8,6 +8,8 @@ const HalftoneBox = lazy(() => import('./pages/halftone-box/HalftoneBox'));
 const LuminousBox = lazy(() => import('./pages/luminous-box/LuminousBox'));
 const LuminousAndHalftoneBox = lazy(() => import('./pages/luminous-and-halftone-box/LuminousAndHalftoneBox'));
 const AlignedBoxes = lazy(() => import('./pages/aligned-boxes/AlignedBoxes'));
+// const AlignedBoxesTransform = lazy(() => import('./pages/aligned-boxes-transform/AlignedBoxesTransform'));
+// const ColorfulLines = lazy(() => import('./pages/colorful-lines/ColorfulLines'));
 
 const Loading = () => {
   return <p>Loading...</p>;
@@ -25,6 +27,8 @@ const App = () => (
           <Route path='/luminous-box' children={<LuminousBox />} />
           <Route path='/luminous-and-halftone-box' children={<LuminousAndHalftoneBox />} />
           <Route path='/aligned-boxes' children={<AlignedBoxes />} />
+          {/* <Route path='/aligned-boxes-transform' children={<AlignedBoxesTransform />} /> */}
+          {/* <Route path='/colorful-lines' children={<ColorfulLines />} /> */}
         </Switch>
       </Suspense>
     </BrowserRouter>

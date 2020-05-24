@@ -1,7 +1,6 @@
-/** @jsx jsx */
 import React, { useRef, useState, useEffect } from 'react';
 import { extend, Canvas, useFrame, useThree } from 'react-three-fiber';
-import { css, jsx } from '@emotion/core';
+import styled from 'styled-components';
 import * as THREE from 'three';
 
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass'
@@ -11,7 +10,7 @@ import FrontText from '../../components/FrontText';
 
 extend({ EffectComposer, RenderPass, UnrealBloomPass })
 
-const theme = css`
+const CanvasStyle = styled.div`
     width: 100vw;
     height: 100vh;
     z-index: -100;
@@ -28,7 +27,6 @@ const Box: React.FC<BoxProps> = (props) => {
 
     useFrame(() => {
         if (mesh.current) {
-            mesh.current.rotation.x += 0.005
             mesh.current.rotation.y += 0.01
         }
     })
@@ -103,11 +101,11 @@ const AlignedBoxes = () => {
     return (
         <React.Fragment>
             <FrontText title="Aligned Boxes" />
-            <div css={theme}>
+            <CanvasStyle>
                 <Canvas>
                     <Scene />
                 </Canvas>
-            </div>
+            </CanvasStyle>
         </React.Fragment>
     )
 }

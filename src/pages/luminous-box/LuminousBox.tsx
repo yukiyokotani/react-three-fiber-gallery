@@ -1,7 +1,6 @@
-/** @jsx jsx */
 import React, { useRef, useState, useEffect, MutableRefObject } from 'react';
 import { extend, Canvas, useFrame, useThree } from 'react-three-fiber';
-import { css, jsx } from '@emotion/core';
+import styled from 'styled-components';
 import * as THREE from 'three';
 
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass'
@@ -12,7 +11,7 @@ import FrontText from '../../components/FrontText';
 
 extend({ EffectComposer, RenderPass, UnrealBloomPass })
 
-const theme = css`
+const CanvasStyle = styled.div`
     width: 100vw;
     height: 100vh;
     z-index: -100;
@@ -97,11 +96,11 @@ const LuminousBox = () => {
     return (
         <React.Fragment>
             <FrontText title="Luminous Box" />
-            <div css={theme}>
+            <CanvasStyle>
                 <Canvas>
                     <Scene />
                 </Canvas>
-            </div>
+            </CanvasStyle>
         </React.Fragment>
     )
 }

@@ -1,9 +1,8 @@
-/** @jsx jsx */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { css, jsx } from '@emotion/core';
+import styled from 'styled-components';
 
-const theme = css`
+const Main = styled.div`
     padding: 2% 5%;
     color: white;
     font-family: Sans-Serif;
@@ -15,7 +14,7 @@ const theme = css`
 
 const Home: React.FC = () => {
     return (
-        <div css={theme}>
+        <Main>
             <h1>Gallery</h1>
             <li><Link to='/default-box' >Default Box</Link></li>
             <li><Link to='/tailing-box' >Tailing Box</Link></li>
@@ -23,7 +22,9 @@ const Home: React.FC = () => {
             <li><Link to='/luminous-box' >Luminous Box</Link></li>
             <li><Link to='/luminous-and-halftone-box' >Luminous & Halftone Box</Link></li>
             <li><Link to='/aligned-boxes'>Aligned Boxes</Link></li>
-        </div>
+            {/* <li><Link to='/aligned-boxes-transform'>Aligned Boxes Transform</Link></li> */}
+            {/* <li><Link to='/colorful-lines'>Colorful Lines</Link></li> */}
+        </Main>
     );
 };
 

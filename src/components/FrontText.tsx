@@ -1,7 +1,7 @@
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core';
+import React from 'react';
+import styled from 'styled-components';
 
-const theme = css`
+const StyledText = styled.h1`
     color: white;
     position: absolute;
     top: 2%;
@@ -16,9 +16,7 @@ interface FrontTextProps {
 
 const FrontText: React.FC<FrontTextProps> = (props) => {
     return (
-        <div css={theme}>
-            <h1>{props.title}</h1>
-        </div >
+        <StyledText>{props.title}</StyledText>
     )
 };
 

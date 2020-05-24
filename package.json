@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://yokotani92.github.io/react-three-fiber-gallery/",
   "dependencies": {
-    "@emotion/core": "^10.0.28",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -12,7 +11,6 @@
     "@types/node": "^12.12.36",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
-    "emotion-reset": "^2.0.7",
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -20,6 +18,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-three-fiber": "^4.0.28",
+    "styled-components": "^5.1.0",
     "three": "^0.115.0",
     "typescript": "^3.7.5"
   },
@@ -47,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.5"
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0"
   }
 }
